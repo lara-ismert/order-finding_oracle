@@ -1,8 +1,8 @@
 Let $N$ be an integer larger than 2, and let $n$ be the bit length of $N$.
-In this repository, I seek to implement the order-finding oracle in 
-Shor's algorithm, which is comprised of multiple controlled-U gates, 
-where each U implements multiplication mod N on the computational basis
-vectors with labeling from $Z_{2^n}$.
+In this repository, I implement the order-finding oracle in 
+Shor's algorithm, which is comprised of multiple controlled-$U_{a^j}$ gates, 
+where each $U_{a^j}$ implements multiplication by $a^j \mod N$ on the computational basis
+vectors with labeling in $Z_{2^n}$.
 
 Our first implementation comes from Beauregard's article 
 *Circuit for Shor’s algorithm using 2n+3 qubits*. 
